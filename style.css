@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(19, 3, 77);
+  padding: 25px;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.navigation {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding: 25px;
+  background-color: rgb(128, 167, 250);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.navigation a {
+  color: white; /* Set default color for links */
+  text-decoration: none; /* Remove underline from links */
+  padding: 0 15px; /* Add padding around links */
+}
+
+.navigation a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+.navigation a:active {
+  color: #060af8; /* Set color for active (clicked) links */
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture {
+  display: flex;
+  flex-grow: 1;
+  max-width: 50%;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding: 25px;
+  background-color: rgb(128, 167, 250);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: larger;
+}
