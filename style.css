@@ -1,0 +1,83 @@
+.initialbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  flex-grow: 1;
+  background-color: rgb(12, 2, 51);
+  padding-right: 0px;
+  padding-left: 20px;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.navigation {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  padding: 25px;
+  background-color: rgb(29, 39, 63);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: larger;
+  background-image: url("techbackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  background-color: rgb(33, 28, 54);
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center; /* position the text in the center alignment to tbe rows*/
+  padding: 25px;
+  background-color: rgb(29, 39, 63);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+  margin: auto; /* position the text in the center */
+}
+
+.picture img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: rgb(29, 39, 63);
+  color: white;
+}
+
+a {
+  color: white; /* Set default color for links */
+  text-decoration: none; /* Remove underline from links */
+  padding: 0 15px; /* Add padding around links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
+a:active {
+  color: #060af8; /* Set color for active (clicked) links */
+}
