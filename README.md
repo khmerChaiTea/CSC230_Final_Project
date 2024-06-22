@@ -9,7 +9,7 @@ Play the Game
 Calculator
 My second project is a basic calculator.
 This project used HTML, and CSS.
-The project is to create a simple calculator that performs basic arithmetic operations such as addition (+), subtraction (-), multiplication (), and division (/). In HTML, I added buttons for 'AC', 'DEL', '.', '/', '', '+', '=', '00', '0', and '1-9'. I used CSS to customize the appearance of the calculator and applied styles to the buttons. Additionally, there are JavaScript tools embedded in the HTML file.
+The project is to create a simple calculator that performs basic arithmetic operations such as addition (+), subtraction (-), multiplication (*), and division (/). In HTML, I added buttons for 'AC', 'DEL', '.', '/', '', '+', '=', '00', '0', and '1-9'. I used CSS to customize the appearance of the calculator and applied styles to the buttons. Additionally, there are JavaScript tools embedded in the HTML file.
 
 Use the Calculator
 Guess My Word in Python
