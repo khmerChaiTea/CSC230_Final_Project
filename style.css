@@ -1,0 +1,208 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(29, 39, 63);
+  color: white;
+  line-height: 1.6; /* Improved line height for better readability */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px; /* Slightly reduced padding for links */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #060af8;
+}
+
+/* Initial bar */
+.initial-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(12, 2, 51);
+}
+
+.name {
+  display: flex;
+  flex-grow: 1;
+  background-color: rgb(12, 2, 51);
+  padding-left: 10px; /* Adjusted padding for smaller screens */
+}
+
+.name h3 {
+  margin: 0;
+  font-size: 1.2rem; /* Slightly reduced font size */
+  font-weight: bold;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(29, 39, 63);
+  padding: 10px 15px; /* Reduced padding for smaller screens */
+  background-image: url("techbackground.JPG");
+  background-repeat: no-repeat;
+  background-attachment: relative;
+  background-size: 100% 100%;
+}
+
+.navigation a {
+  padding: 8px; /* Reduced padding for smaller screens */
+  color: black;
+}
+
+/* Profile section */
+.profile {
+  flex-direction: column; /* Adjusted for better mobile layout */
+  align-items: center; /* Center align content */
+  padding: 20px;
+}
+
+.content {
+  max-width: 100%; /* Full width on smaller screens */
+  text-align: center;
+  padding: 25px;
+  background-color: rgb(29, 39, 63);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem; /* Adjusted font size */
+  color: white;
+  margin: auto;
+}
+
+.about-me {
+  text-align: justify;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1rem; /* Adjusted font size */
+}
+
+.projects {
+  text-align: center;
+  margin-top: 20px; /* Added margin top for spacing */
+}
+
+.project-item {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.project-item h3 {
+  font-size: 1.1rem; /* Adjusted font size */
+  margin-bottom: 5px;
+}
+
+.project-item p {
+  margin-bottom: 10px;
+}
+
+.project-item a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%; /* Adjusted width for better mobile layout */
+  margin: 30px auto;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column; /* Adjusted for better mobile layout */
+}
+
+.contact-left {
+  padding: 20px; /* Reduced padding for smaller screens */
+  background-color: white;
+  color: black;
+}
+
+.contact-right {
+  padding: 20px; /* Reduced padding for smaller screens */
+  background-color: #1c00b5;
+}
+
+.container h1 {
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 20px; /* Reduced margin for smaller screens */
+}
+
+.input-row .input-group {
+  flex-basis: 100%; /* Full width for input groups on smaller screens */
+  margin-bottom: 10px; /* Reduced margin for smaller screens */
+}
+
+input,
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 5px 0;
+  box-sizing: border-box;
+  font-size: 1rem; /* Adjusted font size */
+}
+
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: #1c00b5;
+}
+button {
+  background-color: #1c00b5;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: white;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.5);
+}
+
+.contact-left h3 {
+  color: #1c00b5;
+  font-weight: 600;
+  margin-bottom: 20px; /* Adjusted margin for smaller screens */
+}
+
+.contact-right h3 {
+  font-weight: 600;
+  margin-bottom: 20px; /* Adjusted margin for smaller screens */
+}
+
+tr td:first-child {
+  padding-right: 10px;
+}
+
+tr td {
+  padding: 10px 0; /* Adjusted padding for smaller screens */
+}
+
+.about-me h3 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
