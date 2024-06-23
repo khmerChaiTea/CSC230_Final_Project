@@ -1,5 +1,7 @@
 # CSC230_Final_Project
 
+Live Site on GitHub: https://khmerchaitea.github.io/CSC230_Final_Project/index.html
+
 Guessing Number Game
 My first project is a simple guessing number game.
 This project used JavaScript, HTML, and CSS.
