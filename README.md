@@ -15,4 +15,4 @@ The project is to create a simple calculator that performs basic arithmetic oper
 Guess My Word in Python
 My third project involves guessing words in Python.
 This project used Python and txt file.
-A user will be asked to guess a 5-letter word. If the character is in the word, a message will display to let the user know whether their character is there, missplaced, or wrong. The game gives the user only 5 guesses. If the user guesses correctly within ten guesses, he or she will win; if not, they lose. the text file is use to stored 5-letter word; it act as a dictionary for the guessing word database.
+A user will be asked to guess a 5-letter word. If the character is in the word, a message will display to let the user know whether their character is there, misplaced, or wrong. The game gives the user only 5 guesses. If the user guesses correctly within ten guesses, he or she will win; if not, they lose. the text file is use to stored 5-letter word; it act as a dictionary for the guessing word database.
